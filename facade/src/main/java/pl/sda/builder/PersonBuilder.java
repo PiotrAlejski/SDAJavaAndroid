@@ -12,17 +12,17 @@ public class PersonBuilder {
         return this;
     }
 
-    public  PersonBuilder withLastName(String lastName) {
+    public PersonBuilder withLastName(String lastName) {
         person.setLastName(lastName);
         return this;
     }
 
-    public  PersonBuilder withPersonAddress(PersonAddress personAddress) {
+    public PersonBuilder withPersonAddress(PersonAddress personAddress) {
         person.setAddress(personAddress);
         return this;
     }
 
-    public  PersonBuilder withPesel(String pesel) {
+    public PersonBuilder withPesel(String pesel) {
         person.setPesel(pesel);
         return this;
     }
